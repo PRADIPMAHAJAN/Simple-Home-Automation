@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue">
+<center>
+	<h1 style="color:blue;">HOME AUTOMATION SYSTEM </h1>
+	<h2 style="color:red;">ROOM LIGHT</h2>
+	<button onclick="window-location='http://'+location.hostname+'/led1/on'">on</button>
+	<button onclick="window-location='http://'+location.hostname+'/led1/off'">off</button>
+
+	<h2 style="color:red;">ROOM AC</h2>
+	<button onclick="window-location='http://'+location.hostname+'/led2/on'">on</button>
+	<button onclick="window-location='http://'+location.hostname+'/led2/off'">off</button>
+	
+	
+</center>
+</body>
+</html>
